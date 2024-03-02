@@ -3,7 +3,7 @@
 // Fliename: main.cpp
 //////////////////////
 
-#include "systemclass.h"
+#include "../Header/systemclass.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdline, int iCmdshow)
 {

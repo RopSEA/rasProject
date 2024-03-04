@@ -28,6 +28,8 @@ const float SCREEN_NEAR = 0.3f;
 #include "modelclass.h"
 #include "colorshaderclass.h"
 
+#include "Textures/textureshaderclass.h"
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // Class name: ApplicationClass
@@ -51,6 +53,7 @@ private:
 	CameraClass* m_Camera;
 	ModelClass* m_Model;
 	ColorShaderClass* m_ColorShader;
+	TextureShaderClass* m_TextureShader;
 };
 
 #endif

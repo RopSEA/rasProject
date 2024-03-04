@@ -39,6 +39,12 @@
     <ClCompile Include="src\Cameraclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Textures\textureshaderclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Textures\Textureclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\systemclass.h">
@@ -62,9 +68,20 @@
     <ClInclude Include="Header\Cameraclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header\Textures\textureshaderclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Textures\Textureclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\Color.vs" />
     <None Include="Shaders\Color.ps" />
+    <None Include="Shaders\texture.vs" />
+    <None Include="Shaders\texture.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stone01.tga" />
   </ItemGroup>
 </Project>

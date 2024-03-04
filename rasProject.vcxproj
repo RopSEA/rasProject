@@ -27,6 +27,8 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Modelclass.cpp" />
     <ClCompile Include="src\systemclass.cpp" />
+    <ClCompile Include="src\Textures\textureshaderclass.cpp" />
+    <ClCompile Include="src\Textures\Textureclass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\Applicationclass.h" />
@@ -36,10 +38,17 @@
     <ClInclude Include="Header\inputclass.h" />
     <ClInclude Include="Header\Modelclass.h" />
     <ClInclude Include="Header\systemclass.h" />
+    <ClInclude Include="Header\Textures\textureshaderclass.h" />
+    <ClInclude Include="Header\Textures\Textureclass.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\Color.ps" />
     <None Include="Shaders\Color.vs" />
+    <None Include="Shaders\texture.vs" />
+    <None Include="Shaders\texture.ps" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stone01.tga" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Cube.txt" />
+    <Text Include="sphere.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -45,6 +45,12 @@
     <ClCompile Include="src\Textures\Textureclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Lightshaderclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lightclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\systemclass.h">
@@ -74,14 +80,25 @@
     <ClInclude Include="Header\Textures\Textureclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header\Lightshaderclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Lightclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\Color.vs" />
     <None Include="Shaders\Color.ps" />
     <None Include="Shaders\texture.vs" />
     <None Include="Shaders\texture.ps" />
+    <None Include="Shaders\light.vs" />
+    <None Include="Shaders\light.ps" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="stone01.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Cube.txt" />
   </ItemGroup>
 </Project>

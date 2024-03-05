@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Lightclass.cpp" />
     <ClCompile Include="src\Applicationclass.cpp" />
     <ClCompile Include="src\Cameraclass.cpp" />
     <ClCompile Include="src\Colorshaderclass.cpp" />
     <ClCompile Include="src\D3dclass.cpp" />
     <ClCompile Include="src\Inputclass.cpp" />
+    <ClCompile Include="src\Lightshaderclass.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Modelclass.cpp" />
     <ClCompile Include="src\systemclass.cpp" />
@@ -36,12 +38,16 @@
     <ClInclude Include="Header\Colorshaderclass.h" />
     <ClInclude Include="Header\D3dclass.h" />
     <ClInclude Include="Header\inputclass.h" />
+    <ClInclude Include="Header\Lightshaderclass.h" />
     <ClInclude Include="Header\Modelclass.h" />
     <ClInclude Include="Header\systemclass.h" />
     <ClInclude Include="Header\Textures\textureshaderclass.h" />
     <ClInclude Include="Header\Textures\Textureclass.h" />
+    <ClInclude Include="Header\Lightclass.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Shaders\light.ps" />
+    <None Include="Shaders\light.vs" />
     <None Include="Shaders\Color.ps" />
     <None Include="Shaders\Color.vs" />
     <None Include="Shaders\texture.vs" />
@@ -49,6 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="stone01.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Cube.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

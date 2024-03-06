@@ -28,6 +28,7 @@ const float SCREEN_NEAR = 0.3f;
 #include "fontshaderclass.h"
 #include "fontclass.h"
 #include "textclass.h"
+#include "Fpsclass.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -46,13 +47,16 @@ public:
 
 private:
 	bool Render();
+	bool UpdateFps();
 
 private:
 	D3DClass* m_Direct3D;
 	CameraClass* m_Camera;
 	FontShaderClass* m_FontShader;
 	FontClass* m_Font;
-	TextClass* m_TextString1, * m_TextString2;
+	FpsClass* m_Fps;
+	TextClass* m_FpsString;
+	int m_previousFps;
 };
 
 #endif

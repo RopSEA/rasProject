@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Fpsclass.cpp" />
     <ClCompile Include="src\Fontshaderclass.cpp" />
     <ClCompile Include="src\Fontclass.cpp" />
     <ClCompile Include="src\spriteclass.cpp" />
@@ -39,6 +40,7 @@
     <ClCompile Include="src\Timerclass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\Fpsclass.h" />
     <ClInclude Include="Header\Fontshaderclass.h" />
     <ClInclude Include="Header\Fontclass.h" />
     <ClInclude Include="Header\bitmapclass.h" />

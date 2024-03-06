@@ -25,10 +25,8 @@ const float SCREEN_NEAR = 0.3f;
 ///////////////////////
 #include "d3dclass.h"
 #include "cameraclass.h"
-#include "modelclass.h"
-
-#include "Lightshaderclass.h"
-#include "Lightclass.h"
+#include "Textures/textureshaderclass.h"
+#include "bitmapclass.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -51,11 +49,8 @@ private:
 private:
 	D3DClass* m_Direct3D;
 	CameraClass* m_Camera;
-	ModelClass* m_Model;
-	LightShaderClass* m_LightShader;
-	LightClass* m_Light;
-	LightClass* m_Lights;
-	int m_numLights;
+	TextureShaderClass* m_TextureShader;
+	BitmapClass* m_Bitmap;
 };
 
 #endif

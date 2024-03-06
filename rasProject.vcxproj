@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\bitmapclass.cpp" />
     <ClCompile Include="src\Lightclass.cpp" />
     <ClCompile Include="src\Applicationclass.cpp" />
     <ClCompile Include="src\Cameraclass.cpp" />
@@ -33,6 +34,7 @@
     <ClCompile Include="src\Textures\Textureclass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\bitmapclass.h" />
     <ClInclude Include="Header\Applicationclass.h" />
     <ClInclude Include="Header\Cameraclass.h" />
     <ClInclude Include="Header\Colorshaderclass.h" />

@@ -48,16 +48,19 @@
   <ItemGroup>
     <None Include="Shaders\light.ps" />
     <None Include="Shaders\light.vs" />
-    <None Include="Shaders\Color.ps" />
-    <None Include="Shaders\Color.vs" />
-    <None Include="Shaders\texture.vs" />
-    <None Include="Shaders\texture.ps" />
+    <None Include="Shaders\OldShaders\light.ps" />
+    <None Include="Shaders\OldShaders\light.vs" />
+    <None Include="Shaders\OldShaders\Color.ps" />
+    <None Include="Shaders\OldShaders\Color.vs" />
+    <None Include="Shaders\OldShaders\texture.vs" />
+    <None Include="Shaders\OldShaders\texture.ps" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="stone01.tga" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Cube.txt" />
+    <Text Include="plane.txt" />
     <Text Include="sphere.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

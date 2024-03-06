@@ -88,10 +88,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shaders\Color.vs" />
-    <None Include="Shaders\Color.ps" />
-    <None Include="Shaders\texture.vs" />
-    <None Include="Shaders\texture.ps" />
+    <None Include="Shaders\OldShaders\Color.vs" />
+    <None Include="Shaders\OldShaders\Color.ps" />
+    <None Include="Shaders\OldShaders\texture.vs" />
+    <None Include="Shaders\OldShaders\texture.ps" />
+    <None Include="Shaders\OldShaders\light.vs" />
+    <None Include="Shaders\OldShaders\light.ps" />
     <None Include="Shaders\light.vs" />
     <None Include="Shaders\light.ps" />
   </ItemGroup>
@@ -101,5 +103,6 @@
   <ItemGroup>
     <Text Include="Cube.txt" />
     <Text Include="sphere.txt" />
+    <Text Include="plane.txt" />
   </ItemGroup>
 </Project>

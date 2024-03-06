@@ -54,6 +54,12 @@
     <ClCompile Include="src\bitmapclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\spriteclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timerclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\systemclass.h">
@@ -92,6 +98,12 @@
     <ClInclude Include="Header\bitmapclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header\spriteclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Timerclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\OldShaders\Color.vs" />
@@ -105,10 +117,15 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\stone01.tga" />
+    <Image Include="Textures\sprite01.tga" />
+    <Image Include="Textures\sprite02.tga" />
+    <Image Include="Textures\sprite03.tga" />
+    <Image Include="Textures\sprite04.tga" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Models\Cube.txt" />
     <Text Include="Models\sphere.txt" />
     <Text Include="Models\plane.txt" />
+    <Text Include="Textures\sprite_data_01.txt" />
   </ItemGroup>
 </Project>

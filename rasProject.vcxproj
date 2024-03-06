@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\spriteclass.cpp" />
     <ClCompile Include="src\bitmapclass.cpp" />
     <ClCompile Include="src\Lightclass.cpp" />
     <ClCompile Include="src\Applicationclass.cpp" />
@@ -32,6 +33,7 @@
     <ClCompile Include="src\systemclass.cpp" />
     <ClCompile Include="src\Textures\textureshaderclass.cpp" />
     <ClCompile Include="src\Textures\Textureclass.cpp" />
+    <ClCompile Include="src\Timerclass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\bitmapclass.h" />
@@ -46,6 +48,8 @@
     <ClInclude Include="Header\Textures\textureshaderclass.h" />
     <ClInclude Include="Header\Textures\Textureclass.h" />
     <ClInclude Include="Header\Lightclass.h" />
+    <ClInclude Include="Header\spriteclass.h" />
+    <ClInclude Include="Header\Timerclass.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\light.ps" />
@@ -58,12 +62,17 @@
     <None Include="Shaders\OldShaders\texture.ps" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Textures\sprite01.tga" />
+    <Image Include="Textures\sprite02.tga" />
+    <Image Include="Textures\sprite03.tga" />
+    <Image Include="Textures\sprite04.tga" />
     <Image Include="Textures\stone01.tga" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Models\Cube.txt" />
     <Text Include="Models\plane.txt" />
     <Text Include="Models\sphere.txt" />
+    <Text Include="Textures\sprite_data_01.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

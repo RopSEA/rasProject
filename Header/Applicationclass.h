@@ -26,7 +26,8 @@ const float SCREEN_NEAR = 0.3f;
 #include "d3dclass.h"
 #include "cameraclass.h"
 #include "Textures/textureshaderclass.h"
-#include "bitmapclass.h"
+#include "spriteclass.h"
+#include "timerclass.h"
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -44,13 +45,14 @@ public:
 	bool Frame();
 
 private:
-	bool Render(float);
+	bool Render();
 
 private:
 	D3DClass* m_Direct3D;
 	CameraClass* m_Camera;
 	TextureShaderClass* m_TextureShader;
-	BitmapClass* m_Bitmap;
+	SpriteClass* m_Sprite;
+	TimerClass* m_Timer;
 };
 
 #endif

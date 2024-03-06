@@ -1,0 +1,6 @@
+4
+../rasProject/Textures/sprite01.tga
+../rasProject/Textures/sprite02.tga
+../rasProject/Textures/sprite03.tga
+../rasProject/Textures/sprite04.tga
+200

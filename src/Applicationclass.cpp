@@ -52,14 +52,14 @@ bool ApplicationClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
 	m_Model = new ModelClass;
 
 	// Set the file name of the model.
-	strcpy_s(modelFilename, "../rasProject/plane.txt");
+	strcpy_s(modelFilename, "../rasProject/Models/plane.txt");
 
 
 	// Set the file name of the model.
 	//	strcpy_s(modelFilename, "../rasProject/cube.txt");
 
 	// Set the name of the texture file that we will be loading.
-	strcpy_s(textureFilename, "../rasProject/stone01.tga");
+	strcpy_s(textureFilename, "../rasProject/Textures/stone01.tga");
 
 	result = m_Model->Initialize(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), modelFilename, textureFilename);
 	if (!result)

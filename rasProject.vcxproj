@@ -56,12 +56,12 @@
     <None Include="Shaders\OldShaders\texture.ps" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="stone01.tga" />
+    <Image Include="Textures\stone01.tga" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Cube.txt" />
-    <Text Include="plane.txt" />
-    <Text Include="sphere.txt" />
+    <Text Include="Models\Cube.txt" />
+    <Text Include="Models\plane.txt" />
+    <Text Include="Models\sphere.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -98,11 +98,11 @@
     <None Include="Shaders\light.ps" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="stone01.tga" />
+    <Image Include="Textures\stone01.tga" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Cube.txt" />
-    <Text Include="sphere.txt" />
-    <Text Include="plane.txt" />
+    <Text Include="Models\Cube.txt" />
+    <Text Include="Models\sphere.txt" />
+    <Text Include="Models\plane.txt" />
   </ItemGroup>
 </Project>

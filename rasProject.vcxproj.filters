@@ -60,6 +60,15 @@
     <ClCompile Include="src\Timerclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Fontclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fontshaderclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Textclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\systemclass.h">
@@ -104,6 +113,15 @@
     <ClInclude Include="Header\Timerclass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header\Fontclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Fontshaderclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Textclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\OldShaders\Color.vs" />
@@ -114,6 +132,8 @@
     <None Include="Shaders\OldShaders\light.ps" />
     <None Include="Shaders\light.vs" />
     <None Include="Shaders\light.ps" />
+    <None Include="Shaders\font.vs" />
+    <None Include="Shaders\font.ps" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\stone01.tga" />
@@ -121,11 +141,13 @@
     <Image Include="Textures\sprite02.tga" />
     <Image Include="Textures\sprite03.tga" />
     <Image Include="Textures\sprite04.tga" />
+    <Image Include="font\font01.tga" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Models\Cube.txt" />
     <Text Include="Models\sphere.txt" />
     <Text Include="Models\plane.txt" />
     <Text Include="Textures\sprite_data_01.txt" />
+    <Text Include="font\font01.txt" />
   </ItemGroup>
 </Project>

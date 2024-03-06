@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Fontshaderclass.cpp" />
+    <ClCompile Include="src\Fontclass.cpp" />
     <ClCompile Include="src\spriteclass.cpp" />
     <ClCompile Include="src\bitmapclass.cpp" />
     <ClCompile Include="src\Lightclass.cpp" />
@@ -31,11 +33,14 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Modelclass.cpp" />
     <ClCompile Include="src\systemclass.cpp" />
+    <ClCompile Include="src\Textclass.cpp" />
     <ClCompile Include="src\Textures\textureshaderclass.cpp" />
     <ClCompile Include="src\Textures\Textureclass.cpp" />
     <ClCompile Include="src\Timerclass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\Fontshaderclass.h" />
+    <ClInclude Include="Header\Fontclass.h" />
     <ClInclude Include="Header\bitmapclass.h" />
     <ClInclude Include="Header\Applicationclass.h" />
     <ClInclude Include="Header\Cameraclass.h" />
@@ -50,8 +55,11 @@
     <ClInclude Include="Header\Lightclass.h" />
     <ClInclude Include="Header\spriteclass.h" />
     <ClInclude Include="Header\Timerclass.h" />
+    <ClInclude Include="Header\Textclass.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Shaders\font.ps" />
+    <None Include="Shaders\font.vs" />
     <None Include="Shaders\light.ps" />
     <None Include="Shaders\light.vs" />
     <None Include="Shaders\OldShaders\light.ps" />
@@ -62,6 +70,7 @@
     <None Include="Shaders\OldShaders\texture.ps" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="font\font01.tga" />
     <Image Include="Textures\sprite01.tga" />
     <Image Include="Textures\sprite02.tga" />
     <Image Include="Textures\sprite03.tga" />
@@ -69,6 +78,7 @@
     <Image Include="Textures\stone01.tga" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="font\font01.txt" />
     <Text Include="Models\Cube.txt" />
     <Text Include="Models\plane.txt" />
     <Text Include="Models\sphere.txt" />
